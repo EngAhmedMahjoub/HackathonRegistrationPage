@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1 id="title">Hackathon Registration</h1>
+      <em>
+        <p id="description">Please fill out the form to register for the hackathon.</p>
+      </em>
+    </fieldset>
+  </header>
+  <main>
+    <fieldset>
+    <form id="survey-form" action="#" method="POST">
+      <fieldset>
+        <h3>Personal Info</h3>
+        <label for="name" id="name-label">First Name:<input type="text" id="name" placeholder="Please enter your first name" name="first-name"  required></label
+        <label for="last-name" id="name-label">Last Name: <input type="text" id="last-name" placeholder="Please enter your last name" name="last-name" required></label>
+        <label for="age" id="number-label">Age:<input type="number" id="number" placeholder="Please enter your age" min="16" max="99" required></label>
+        <label for="professional-qualification">
+          Professional qualification:
+          <select id="dropdown" name="professional-qualification" required>
+            <option value="">Please select</option>
+            <option value="diploma">Diploma</option>
+            <option value="bachelor">Bachelor</option>
+            <option value="master">Master's</option>
+            <option value="doctorate">Doctorate</option>
+          </select>
+        </label
+        <label for="profession">Profession:<input type="text" id="profession" name="profession" placeholder="Leave empty if student or unemployed" required></label>
+        <label>Do you require a travel visa?</label>
+       <label for="visa-required-yes"><input type="radio" id="visa-required-yes" name="visa-required" class="inline" value="yes" required>Yes</label>
+        <label for="visa-required-no"><input type="radio" id="visa-required" name="visa-required" class="inline" value="no" required>No</label>
+      </fieldset>
+      <fieldset>
+        <h3>Participation</h3>
+       <label><input type="radio" id="participation-individual" name="participation" value="individual"/>Individual</label>
+        <label><input type="radio" id="participation-team" name="participation" value="team">Team</label>
+       <label for="problem-set">
+         Please choose a problem set: </br>
+         <select id="problem-set" required>
+          <option value="">Please select</option>
+          <option value="problem-set-1">E-Commerce Optimization</option>
+          <option value="problem-set-2">Data Analytical for Healthcare</option>
+          <option value="problem-set-3">Smart City Solutions</option>
+          <option value="problem-set-4">Cybersecurity Challenges</option>
+         </select>
+        </label>
+        <label>Familiar programming languages</label>
+        <label for="c" id="c-label"> <input type="checkbox" id="c" name="c" value="c"> C </label>
+        <label for="cpp" id="cpp-label"> <input type="checkbox" id="cpp" name="cpp" value="cpp"> C++ </label>
+        <label for="cs" id="cs-label"> <input type="checkbox" id="cs" name="cs" value="cs"> C# </label>
+        <label for="js" id="js-label"> <input type="checkbox" id="js" name="js" value="js"> JavaScript </label>
+        <label for="self-description">Describe yourself</label>
+        <textarea id="self-description" placeholder="Briefly describe yourself"></textarea>
+      </fieldset>
+      <fieldset>
+        <h3>Contact</h3>
+        <label for="email" id="email-label">Email:<input type="email" id="email" placeholder="Please write your email" name="email" required></label>
+        <label for="number" id="number-label">Phone:<input type="number" id="number" placeholder="Please write your phone number" name="number" placeholder required></label>
+        <label for="tel">Telephone:<input type="number" id="tel" name="tel" placeholder="Please write your telephone number" required></label>
+      </fieldset>
+      <button id="submit" type="submit">Submit</button>
+    </form>
+    </main>
+  </body>
+</html>
