@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+label {
+  display: block;
+  margin-bottom: 20px;
+}
+
+body {
+  color: #f2f2f2;
+  background-size: 100% 100%;
+  background-image: url('https://img.freepik.com/free-vector/matrix-style-binary-code-digital-falling-numbers-blue-background_1017-37387.jpg?w=1380&t=st=1696760609~exp=1696761209~hmac=d3a603ab5a00c378d4de1796206073c0ac5c3a16a5f2c607ba76fdd6f48beed9');
+  background-repeat: no-repeat;
+  display: flex;
+  font-family: sans-serif;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  margin: 20px auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+  background-color: rgba(30, 30, 67, 0.7);
+  border-radius: 15px;
+  width: 60%;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+fieldset {
+  border: none;
+  border-bottom: 2px solid;
+  border-color: #007bff;
+  padding-bottom: 35px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-evenly;
+}
+
+textarea {
+  height: 200px;
+  font-size: 16px;
+}
+
+select {
+  font-size: 16px;
+}
+
+::placeholder {
+  font-size: 16px;
+}
+
+input[type="text"], 
+input[type="number"],
+input[type="email"],
+select {
+  width: 100%;
+  height: 55px;
+  font-size: 16px;
+}
+
+input[type="radio"], 
+input[type="checkbox"] {
+  min-width: 1.2rem;
+  min-height: 1.2rem;
+  margin-right: 15px;
+}
+
+
+input, select, textarea {
+  margin-top: 25px;
+  margin-bottom: 30px;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+form button {
+  width: 59%;
+  height: 50px;
+  margin: 0 auto;
+  color: #F3F3F3;
+  font-size: 18px;
+  margin-top: 20px;
+  background-color: #37af65;
+  border-radius: 5px;
+}
+
