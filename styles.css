@@ -10,7 +10,7 @@ label {
 body {
   color: #f2f2f2;
   background-size: 100% 100%;
-  background-image: url('https://img.freepik.com/free-vector/binary-code-pattern-dark-blue-background_53876-116183.jpg?w=1380&t=st=1696773952~exp=1696774552~hmac=42c315ed6c02623f378de3dc0a43f51c87b9fbf9cf99a3dbac6fb41562e78ce5');
+  background: linear-gradient(95deg, rgb(30, 30, 67), rgb(120, 32, 220));
   background-repeat: no-repeat;
   display: flex;
   font-family: sans-serif;
@@ -41,8 +41,6 @@ form {
 
 fieldset {
   border: none;
-  border-bottom: 2px solid;
-  border-color: #007bff;
   padding-bottom: 35px;
   width: 100%;
   display: flex;
